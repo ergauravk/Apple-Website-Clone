@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .logo img{
+    background-color: white;
+    margin: 14px;
+    padding: 5px;
+    border-radius: 25px;
+} */
+
+nav {
+    background-color: rgb(26, 25, 25);
+    margin: 0;
+    padding: 0 10px;
+    height: 8vh;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+nav:hover{
+    cursor: pointer;
+}
+
+.right ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right ul li {
+    margin: 10px;
+    padding: 14px;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.ribbon{
+    padding: 50px;
+    height: 5px;
+    width: auto;
+    background-color: rgb(41, 40, 40);
+}
+.ribbon p{
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ribbon p a{
+    text-decoration: none;
+    color: #2997ff;
+}
+.ribbon p a:hover{
+    text-decoration: underline;
+}
+
+.body1{
+    background-color: black;
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+}
+
+.body1 h1 {
+    margin: 0 15px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+}
+.phone15 {
+    margin: 0;
+    padding: 10px;
+    color: rgb(249, 245, 240);
+    text-align: center;
+    font-size: 24px;
+}
+.learn-link{
+    padding: 20px 23px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.main-link{
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+}
+.main-link a:hover{
+    text-decoration: underline;
+}
+.learn-link a{
+    color: #1e67fa;
+    text-decoration: none;
+}
+.buy-link{
+    padding: 20px 23px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.buy-link a{
+    color: #1e67fa;
+    text-decoration: none;
+}
+
+.body1 img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.section2 {
+    background-color: rgb(251, 251, 251);
+    height: auto;
+    padding: 20px;
+}
+.text1 {
+    margin: auto;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.text2 {
+    font-size: 18px;
+    text-align: center;
+}
+.phone2 img {
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+.section3 {
+    background-color: rgb(16, 14, 14);
+    padding: 20px;
+}
+
+.watch video{
+    width: 100%;
+    height: 80vh;
+    
+   
+}
+
+.watch9 {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.watch9 img {
+    max-width: 14vw;
+    max-height: 100%;
+  }
+
+.textwatch{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+.watchbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 23px;
+    
+}
+
+.watchbtn .l {
+    margin: 18px;
+    padding: 13px;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 55px;
+    cursor: pointer;
+}
+.watchbtn .b {
+    margin: 18px;
+    pmargin: 0 28px;
+    padding: 13px;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 55px;
+    cursor: pointer;
+}
+
+.container {
+    height: 80vh;
+    text-align: center;
+}
+
+.box1 {
+    background-color: rgb(252, 249, 249);
+            border: 1px solid rgb(205, 198, 198);
+            height: 77vh;
+            width: 45%;
+            display: inline-block;
+            margin: 10px;
+            box-sizing: border-box; 
+            vertical-align: top;
+}
+
+.box2 {
+    background-color: rgb(252, 249, 249);
+    border: 1px solid rgb(205, 198, 198);
+    height: 77vh;
+    width: 45%;
+    display: inline-block;
+    margin: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.ultra img{
+    padding: 18px;
+    width: 10vw;
+}
+.box1 h3{
+    font-size: 23px;
+}
+.ultrabtn{
+    padding: 10px 12px;
+    
+}
+.ultrabtn .learn{
+    background-color: rgb(252, 249, 249);
+    font-size: 18px;
+    padding: 10px;
+    color: blue;
+    border: none;
+}
+.ultrabtn .buy{
+    background-color: rgb(252, 249, 249);
+    font-size: 18px;
+    padding: 10px 23px;
+    color: blue;
+    border: none;
+}
+
+.ultraimg img{
+    padding: 23px;
+    width: 100%;
+}
+.box2 h4{
+    padding:23px;
+    font-size: 43px;
+}
+.box2 span{
+    font-size: 23px;
+}
+
+.macimg img{
+    padding: 23px;
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(251, 247, 247);
+    padding: 30px 350px;
+    width: 100%;
+    
+}
+
+footer .footer-container1{
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.footer-container2{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    padding:43px 0;
+    
+    
+}
+h5{
+    font-size: 15px;
+    margin:10px 0;
+}
+.footer-item{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-item a{
+    color: rgb(113, 108, 108);
+    font-weight: 10px;
+    text-decoration: none;
+    
+    padding: 3px;
+}
+
+.footer-item a:hover{
+    text-decoration: underline;
+}
+
+.footer-doc a{
+    color: rgb(56, 56, 250);
+}
+
+.footer-doc{
+    font-size: 15px;
+}
+.copy-container{
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+    padding: 16px 0;
+    font-size: 14px;
+}
+.copy-container p{
+    font-size: 12px;
+}
+
+.link a{
+    color: rgb(56, 56, 250);
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+
+.india{
+    text-align: end;
+    font-size: 14px;
+}
